@@ -37,23 +37,23 @@ Esse arquivo contém informações sobre os cenários e casos de testes para a p
 |------|------| --------| --------|
 | 01   |Realizar o login preenchendo os campos login e senha com dados corretos|Acessar a plataforma|Aprovado|
 | 02   |Realizar o login preenchendo os campos login e senha com dados incorretos|Sistema informar que os dados inseridos estão incorretos|*Erro de UI encontrado*|
-| 03   |Tentar ealizar o login sem preencher os campos login e senha|Sistema informar que é necessário preencher os campos para logar|Aprovado|
+| 03   |Tentar realizar o login sem preencher os campos login e senha|Sistema informar que é necessário preencher os campos para logar|Aprovado|
 
 
 **Ordenação e filtragem de produtos**
  Número|Caso|Critério de Sucesso|Status|
 |------|------| --------| --------|
-| 01   |Ordernar produtos por ordem alfabética|Produtos serem exibidos ordenados corretamente pela ordem alfabética|*Erro ocorrendo com usuário específico*|
-| 02   |Ordernar produtos por ordem alfabética inversa|Produtos serem exibidos ordenados corretamente pela ordem inversa do alfabeto|*Erro ocorrendo com usuário específico*|
-| 03   |Ordernar produtos do preço mais baixo ao mais alto|Produtos com preços mais baixos serem exibidos corretamente em primeiro|*Erro ocorrendo com usuário específico*|
-| 04   |Ordernar produtos do preço mais alto ao mais baixo|Produtos com preços mais altos serem exibidos corretamente em primeiro|*Erro ocorrendo com usuário específico*|
+| 01   |Ordenar produtos por ordem alfabética|Produtos serem exibidos ordenados corretamente pela ordem alfabética|*Erro ocorrendo com usuário específico*|
+| 02   |Ordenar produtos por ordem alfabética inversa|Produtos serem exibidos ordenados corretamente pela ordem inversa do alfabeto|*Erro ocorrendo com usuário específico*|
+| 03   |Ordenar produtos do preço mais baixo ao mais alto|Produtos com preços mais baixos serem exibidos corretamente em primeiro|*Erro ocorrendo com usuário específico*|
+| 04   |Ordenar produtos do preço mais alto ao mais baixo|Produtos com preços mais altos serem exibidos corretamente em primeiro|*Erro ocorrendo com usuário específico*|
 
 **Fluxo completo de compras**
  Número|Caso|Critério de Sucesso|Status|
 |------|------| --------| --------|
 | 01   |Inserir um item no carrinho de compras|Item deve ser exibido na página do carrinho com todas os dados corretos|*Erro ocorrendo com usuário específico*|
 | 02   |Realizar uma compra após inserir um item ou mais no carrinho de compras|Após inserir os itens no carrinho e clicar no botão "Checkout" o usuário deve ser direcionado para uma tela que exige o preenchimento dos dados de envio.|Aprovado|
-| 03   |Prencher dados de evio exigidos no processo de compra|Plataforma deve informar que todos os dados de envio são obrigatórios.|*Erro de UI encotrado*|
+| 03   |Preencher dados de envio exigidos no processo de compra|Plataforma deve informar que todos os dados de envio são obrigatórios.|*Erro de UI encontrado*|
 | 04   |Verificar dados da compra realizada|Após preencher os dados de envio, a plataforma deve exibir os dados dos itens selecionados para compras corretamente. Como valor total dos itens, de frete e a soma dos dois representando o total da compra.|*Erro*|
 | 05   |Finalizar uma compra|Ao clicar no botão "Finish" e finalizar uma compra o usuário deve ser direcionado para uma tela agradecendo o pedido realizado.|*Erro ocorrendo com usuário específico*|
 | 06   |Remover um item do carrinho de compras|O item removido deve voltar ao estoque e ficar selecionado para compra novamente.|*Erro ocorrendo com usuário específico*|
@@ -69,7 +69,7 @@ Esse arquivo contém informações sobre os cenários e casos de testes para a p
 ## Relatório de erros
 Informação e descrição sobre os erros encontrados durante os testes realizados. 
 
-Antes de relatar alguns erros é importante informar sobre o problemas de perfomance que ocorrem na plataforma com o usuário *performance_glitch_user*. Também vale reporatar que muitos erros e bugs foram encontrados durantes testes realizados com os usuários *error_user* e *problem_user*.
+Antes de relatar alguns erros é importante informar sobre o problemas de performance que ocorrem na plataforma com o usuário *performance_glitch_user*. Também vale reportar que muitos erros e bugs foram encontrados durantes testes realizados com os usuários *error_user* e *problem_user*.
 
 **Login**
 
