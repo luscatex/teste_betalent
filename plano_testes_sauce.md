@@ -1,6 +1,8 @@
 # Plano de Testes
 Esse arquivo contém informações sobre os cenários e casos de testes para a plataforma [Sauce Demo](https://www.saucedemo.com/)
 
+Ferramentas utilizadas durante os testes: Navegador Chrome e ShareX para captura de telas.
+
 ## Cenários de Testes
  1. Login
  
